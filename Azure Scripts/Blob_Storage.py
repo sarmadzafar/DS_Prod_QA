@@ -14,8 +14,8 @@ connectionString = ""
 try:
     print("Azure Blob Storage v" + __version__ + " - Python quickstart sample")
 
-    accessKey = "iD0EkuPEOQwqybDOsmqRn/S8gzd1CdVkCF16rub9vE47An4SUvSdWb245Bpt8twcTXLqqGDU2EI3riVtvzMl6Q=="
-    connectionString = "DefaultEndpointsProtocol=https;AccountName=squadstoragedata;AccountKey=iD0EkuPEOQwqybDOsmqRn/S8gzd1CdVkCF16rub9vE47An4SUvSdWb245Bpt8twcTXLqqGDU2EI3riVtvzMl6Q==;EndpointSuffix=core.windows.net"
+    accessKey = "{AccessKey}"
+    connectionString = "{connectionString}"
     # Quick start code goes here
 except Exception as ex:
     print('Exception:')
