@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from DataEntities import ModelArguments
-from InferenceModel import InferenceModel
-from TextExtractor import WikipediaDataExtractor
+from dataentities.dataEntities import ModelArguments
+from inferencemodel.inferenceModel import InferenceModel
+from textextractor.textextractor import WikipediaDataExtractor
 
 app = FastAPI()
 
