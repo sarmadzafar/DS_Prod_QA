@@ -6,8 +6,8 @@ from datasets import load_dataset
 class DatabaseStorage:
 
     def __init__(self) -> None:
-        self.endPoint = "https://productdevelopmentstorage.documents.azure.com:443/"
-        self.primaryKey = "nVds9dPOkPuKu8RyWqigA1DIah4SVZtl1DIM0zDuRKd95an04QC0qv9TQIgrdtgluZo7Z0HXACFQgKgOQEAx1g=="
+        self.endPoint = "{endPoint}"
+        self.primaryKey = "{PrimaryKey}"
         self.client = CosmosClient(self.endPoint, self.primaryKey)
 
     def CreateDatabase(self, databaseName):
