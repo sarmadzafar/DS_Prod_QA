@@ -43,7 +43,7 @@ On the model experimentation side, we achieved the following:
 | Cosine Similarity |0.4905877920980833  |
 
 
-##Way Forward
+## Way Forward
 ### Infrastructure
 On the infrastructure side, the following are the aims:
 -	Create the needed link and pipeline between the Data Storage and Api. 
