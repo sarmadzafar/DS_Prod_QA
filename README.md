@@ -1,5 +1,3 @@
-# DS_Prod_QA
-
 # SQUAD QA Bot.md
 
  ![](https://img.shields.io/github/release/pandao/editor.md.svg) 
